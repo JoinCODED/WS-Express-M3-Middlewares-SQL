@@ -102,7 +102,7 @@ router.param('monumentId', async (req, res, next, monumentId) => {
 });
 ```
 
-12. But what if the cookie does not exist. We can handle the not-found error here!
+12. But what if the monument does not exist. We can handle the not-found error here!
 
 ```javascript
 router.param('monumentId', async (req, res, next, monumentId) => {
